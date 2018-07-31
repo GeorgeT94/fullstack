@@ -26,6 +26,20 @@ elastic search :
 
 glossary api: https://github.com/D1efe/programmingDictionary/tree/json
 
+jbossfuse apache camel:https://github.com/GeorgeT94/cxfrs-routing
+
+download jboss fuse 6.3
+mvn clean install in cxfrs-routing
+
+in jboss fuse:
+```bash
+   install wrap:mvn:org.apache.commons.dbcp/dbcp/4.1
+   ```
+download http://search.maven.org/remotecontent?filepath=commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar
+place commons jar file in jboss 'deploy' folder
+
+copy mysql driver from m2 directory to fuse 'deploy' folder
+
 
 
 
