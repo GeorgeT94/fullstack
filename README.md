@@ -39,6 +39,12 @@ download http://search.maven.org/remotecontent?filepath=commons-dbcp/commons-dbc
 place commons jar file in jboss 'deploy' folder
 
 copy mysql driver from m2 directory to fuse 'deploy' folder
+run ,mysql database
+```bash
+  docker run -p 3306:3306 --name trainer-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=trainer -e MYSQL_USER=trainer_user -e  MYSQL_PASSWORD=trainer_pass -d mysql:5.6
+  ```
+
+
 
 
 
