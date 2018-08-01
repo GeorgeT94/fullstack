@@ -59,6 +59,8 @@ mvn clean install
 ### in jboss fuse:
 ```bash
    install wrap:mvn:org.apache.commons.dbcp/dbcp/4.1
+   feature:install camel-sql
+   osgi:install -s mvn:org.bob.cxfrs/example/0.0.2-SNAPSHOT
    ```
 download http://search.maven.org/remotecontent?filepath=commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar
 place commons jar file in jboss 'deploy' folder
