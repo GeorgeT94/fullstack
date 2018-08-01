@@ -1,9 +1,9 @@
 # fullstack
-##links to all repos required
+## links to all repos required
 
 
 ## front-end : 
-###runs at localhost:3000
+### runs at localhost:3000
 https://github.com/tejanhu/final_project-frontend-app/tree/develop
 ```bash
   npm install
