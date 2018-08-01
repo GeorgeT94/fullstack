@@ -15,6 +15,11 @@ https://github.com/tejanhu/final_project-frontend-app/tree/develop
 
 ## elastic search :  
 needs to be run first
+first
+```bash
+  sudo sysctl -w vm.max_map_count=262144
+  ```
+then
 ```bash
  docker run -d -p 9200:9200 -p 9300:9300 -e "http.host=0.0.0.0" -e "transport.host=0.0.0.0" docker.elastic.co/elasticsearch/elasticsearch:6.3.0
  ```
