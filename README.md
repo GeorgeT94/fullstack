@@ -68,7 +68,14 @@ run ,mysql database
 ```bash
   docker run -p 3306:3306 --name trainer-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=trainer -e MYSQL_USER=trainer_user -e  MYSQL_PASSWORD=trainer_pass -d mysql:5.6
   ```
-
+### create the table used to save messages into
+```bash
+  sudo docker exec -it trainer-mysql bash -l
+  mysql -uroot -ppassword
+  use trainer
+  CREATE TABLE messages (message VARCHAR(255))\g
+  ```
+  
 
 
 
