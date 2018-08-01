@@ -24,9 +24,19 @@ books api at : localhost:8182/book/search/{term}
  docker run -d -p 9200:9200 -p 9300:9300 -e "http.host=0.0.0.0" -e "transport.host=0.0.0.0" docker.elastic.co/elasticsearch/elasticsearch:6.3.0
  ```
 
-## glossary api: https://github.com/D1efe/programmingDictionary/tree/json
+## glossary api: 
+https://github.com/D1efe/programmingDictionary/tree/json
 
-## jbossfuse apache camel:https://github.com/GeorgeT94/cxfrs-routing
+## rabbit mq
+```bash
+  docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+  ```
+  
+## consumer
+https://github.com/oli-loades/Consumer/tree/multiQueue
+
+## jbossfuse apache camel:
+https://github.com/GeorgeT94/cxfrs-routing
 
 ### download jboss fuse 6.3
 ```bash
