@@ -44,7 +44,7 @@ https://github.com/D1efe/programmingDictionary/tree/json
   ```
   
 ## consumer
-https://github.com/oli-loades/Consumer/tree/multiQueue
+https://github.com/oli-loades/Consumer/tree/master
 
 ## jbossfuse apache camel:
 https://github.com/GeorgeT94/cxfrs-routing
