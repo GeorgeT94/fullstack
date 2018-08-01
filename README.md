@@ -39,8 +39,9 @@ https://github.com/oli-loades/Consumer/tree/multiQueue
 https://github.com/GeorgeT94/cxfrs-routing
 
 ### download jboss fuse 6.3
+in cxfrs-routing:
 ```bash
-mvn clean install in cxfrs-routing
+mvn clean install 
   ```
 
 
