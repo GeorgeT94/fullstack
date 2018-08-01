@@ -24,7 +24,7 @@ then
  docker run -d -p 9200:9200 -p 9300:9300 -e "http.host=0.0.0.0" -e "transport.host=0.0.0.0" docker.elastic.co/elasticsearch/elasticsearch:6.3.0
  ```
  
-### runs at localhost:
+### runs at localhost:8182
 https://github.com/oli-loades/Producer/tree/dev
 ```bash
   mvn spring-boot:run
@@ -32,6 +32,8 @@ https://github.com/oli-loades/Producer/tree/dev
 ### running producer also runs books api
 books api at : localhost:8182/book/search/{term}
 
+## questions api:
+https://github.com/oli-loades/question/blob/master/src/main/java/com/qa/Application.java
 
 ## glossary api: 
 https://github.com/D1efe/programmingDictionary/tree/json
